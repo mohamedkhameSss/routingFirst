@@ -1,0 +1,23 @@
+.bgColor {
+    background-color: white ;
+    color: #2C3E50;
+
+}
+.img-fluid {
+    position: relative;
+}
+.shadow {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 6%;
+    width: 88%;
+    margin: auto;
+    
+    height: 100%;
+    background-color: rgba(0, 255, 255, 0.781);
+    z-index: 66666;
+}
+.shadow:hover {
+    display: block;
+}

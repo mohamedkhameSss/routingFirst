@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  background-color: #1ABC9C;
+  color: white;
+}
+.lh-lg {
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+
+.nav-link ,.navbar-brand {
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  
+}
+.nav-link {
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  
+}
+input::placeholder , textarea::placeholder 
+{
+  font: 25px/3 sans-serif;
+}
+button {
+  background-color: #1ABC9C !important;
+  font-weight: bolder !important;
+}
+.iLine {
+  position: relative;
+  width: 25px;
+  margin: auto;
+}
+.iLine::after{
+  content: '';
+  position: absolute;
+  left: 125%;
+  top: 50%;
+  width: 100px;
+  height: 5px;
+  background-color: black;
+  border-radius: 5px;
+}
+.iLine::before{
+  content: '';
+  position: absolute;
+  right: 125%;
+  top: 50%;
+  width: 100px;
+  height: 5px;
+  background-color: black;
+  border-radius: 5px;
+}
+.iLineWhite {
+  position: relative;
+  width: 25px;
+  margin: auto;
+}
+.iLineWhite::after{
+  content: '';
+  position: absolute;
+  left: 125%;
+  top: 50%;
+  width: 100px;
+  height: 5px;
+  background-color: White;
+  border-radius: 5px;
+}
+.iLineWhite::before{
+  content: '';
+  position: absolute;
+  right: 125%;
+  top: 50%;
+  width: 100px;
+  height: 5px;
+  background-color: White;
+  border-radius: 5px;
+}
+.col-md-4{
+  transition: all 1s;
+}
+.shadow {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 6.25%;
+  width: 88%;
+  margin: auto;
+  transition: all 1s;
+  height: 100%;
+  background-color: rgba(0, 255, 255, 0.781);
+  
+}
+.col-md-4:hover .shadow {
+  transition: all 1s;
+  display: block ;
+}
+.fa-plus{
+  color: white;
+  font-size: 6rem !important;
+}
